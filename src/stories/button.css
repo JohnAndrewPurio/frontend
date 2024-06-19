@@ -1,0 +1,26 @@
+.ellty-button {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  width: 340px;
+  height: 40px;
+  background-color: #FFCE22;
+  color: #1F2128;
+
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+
+  user-select: none;
+}
+
+.ellty-button:hover {
+  background-color: #FFD84D;
+}
+
+.ellty-button:active {
+  background: #FFCE22;
+}
