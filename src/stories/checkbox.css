@@ -73,7 +73,7 @@
     visibility: hidden;
     color: #fff;
     position: relative;
-    top: 0;
+    top: -1px;
     left: -1px;
 }
 

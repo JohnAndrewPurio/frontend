@@ -1,6 +1,7 @@
 .ellty-item {
+    box-sizing: border-box;
     background-color: #fff;
-    width: Hug (370px)px;
+    width: 370px;
     height: 42px;
 
     display: flex;

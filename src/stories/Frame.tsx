@@ -58,11 +58,11 @@ export default function Frame({ pages }: FrameProps) {
 
     return (
         <div className="frame">
-            <form ref={allPagesRef} className="wrapper">
+            <form ref={allPagesRef} className="all-pages-wrapper">
                 <Item label="All pages" />
             </form>
             <Bar />
-            <form ref={formRef} className="wrapper">
+            <form ref={formRef} className="pages-wrapper">
                 {
                     Object.entries(pages).map(([key, value]) => (
                         <Item key={key} label={value} />
