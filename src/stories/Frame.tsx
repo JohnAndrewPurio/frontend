@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
-import Bar from "./Bar"
 import { Button } from "./Button"
+import Bar from "./Bar"
 import Item from "./Item"
 import "./frame.css"
 
