@@ -1,17 +1,12 @@
 .bar {
+    box-sizing: border-box;
     width: 370px;
-    max-height: 20px;
+    height: 20px;
     padding: 10px 15px 10px 15px;
-    gap: 10px;
-    opacity: 0px;
 }
 
 .line {
     width: 340px;
     height: 0px;
-    gap: 0px;
-    border: 0.7px 0px 0px 0px;
-    opacity: 0px;
-
-    border: 0.7px solid #CDCDCD;
+    border-top: 0.7px solid #CDCDCD;
 }

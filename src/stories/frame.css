@@ -3,20 +3,17 @@
     height: 326px;
     padding: 10px 0px 10px 0px;
     border-radius: 6px;
-    opacity: 0px;
     background: #FFFFFF;
 
     border: 1px solid #EEEEEE;
 
-    box-shadow: 0px 8px 15px 0px #1414141F;
+    box-shadow: 0px 8px 15px 0px #1414141A;
 }
 
 .submit {
     width: 370px;
     max-height: 60px;
     padding: 10px 15px 10px 15px;
-    gap: 10px;
-    opacity: 0px;
 }
 
 .all-pages-wrapper {
