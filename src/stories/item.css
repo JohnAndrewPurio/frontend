@@ -1,6 +1,6 @@
 .ellty-item {
     background-color: #fff;
-    width: 370px;
+    max-width: 370px;
     height: 42px;
 
     font-family: "Montserrat", sans-serif;

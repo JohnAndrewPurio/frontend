@@ -10,8 +10,8 @@
   color: #1F2128;
 
   border: 0;
+  border-radius: 4px;
   cursor: pointer;
-  display: inline-block;
   line-height: 1;
 
   user-select: none;
