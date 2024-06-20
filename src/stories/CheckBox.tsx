@@ -1,16 +1,21 @@
-import { useState } from 'react'
+import { MutableRefObject, useState } from 'react'
 import './checkbox.css'
 
 interface CheckBoxProps {
+    name?: string
+    ref?: MutableRefObject<HTMLInputElement>,
     size?: "small" | "medium"
 }
 
-export default function CheckBox({ size = "medium" }: CheckBoxProps) {
+export default function CheckBox({ size = "medium", ref, name }: CheckBoxProps) {
     const [clicking, setClicking] = useState(false);
 
+    const onPress = () => setClicking(true)
+    const onRelease = () => setClicking(false)
+
     return (
-        <label className={`ellty-checkbox ${size}`} onMouseDown={() => setClicking(true)} onMouseUp={() => setClicking(false)}>
-            <input type="checkbox" />
+        <label aria-label={name} className={`ellty-checkbox ${size}`} onMouseDown={onPress} onMouseUp={onRelease}>
+            <input ref={ref} type="checkbox" name={name} />
             <div className={`container ${clicking ? "clicking" : ""} ${size}`}>
                 <span className='material-symbols-outlined checkmark'>
                     check

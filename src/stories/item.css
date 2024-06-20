@@ -1,6 +1,6 @@
 .ellty-item {
     background-color: #fff;
-    max-width: 370px;
+    width: Hug (370px)px;
     height: 42px;
 
     font-family: "Montserrat", sans-serif;
@@ -10,4 +10,9 @@
     align-items: center;
 
     padding: 8px 15px 8px 22px;
+}
+
+.box-wrapper {
+    height: 35px;
+    width: 35px;
 }
