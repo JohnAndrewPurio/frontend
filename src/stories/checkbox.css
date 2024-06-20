@@ -1,0 +1,81 @@
+/* Customize the label */
+.ellty-checkbox {
+    display: block;
+    position: relative;
+    cursor: pointer;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.small {
+    font-size: 23px;
+    height: 23px;
+    width: 23px;
+}
+
+.medium {
+    font-size: 25px;
+    height: 25px;
+    width: 25px;
+}
+
+/* Hide the browser's default checkbox */
+.ellty-checkbox input {
+    appearance: none;
+}
+
+/* Create a custom checkbox */
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border-radius: 6px;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+
+/* When the checkbox is checked, add a blue background */
+.ellty-checkbox input:checked~.container {
+    background-color: #2469F6;
+    border-color: #2469F6;
+}
+
+.ellty-checkbox:hover input:checked~.container {
+    background-color: #5087F8;
+    border-color: #5087F8;
+
+}
+
+.ellty-checkbox input:checked~.container .checkmark,
+.ellty-checkbox:hover input~.container .checkmark {
+    visibility: visible;
+}
+
+.ellty-checkbox:hover input~.container .checkmark {
+    color: #E3E3E3;
+}
+
+.material-symbols-outlined {
+    font-size: inherit;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' 0,
+        'opsz' 48;
+}
+
+.checkmark {
+    visibility: hidden;
+    color: #fff;
+    position: relative;
+    top: 0;
+    left: -1px;
+}
+
+.clicking {
+    box-shadow: 0 0 4px 1px #d3d3d3;
+}

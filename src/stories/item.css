@@ -1,0 +1,13 @@
+.ellty-item {
+    background-color: #fff;
+    width: 370px;
+    height: 42px;
+
+    font-family: "Montserrat", sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px 15px 8px 22px;
+}
